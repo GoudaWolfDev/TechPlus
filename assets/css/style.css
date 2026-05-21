@@ -1,0 +1,61 @@
+/* Custom Styles for متجر تيك بلس */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Floating animation for hero showcase cards */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(1deg);
+    }
+}
+
+.animate-float {
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float-card {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    30% {
+        transform: translateY(-4px) scale(1.005);
+        opacity: 0.98;
+    }
+    60% {
+        transform: translateY(-10px) scale(1.01);
+        opacity: 0.99;
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-float-card {
+    animation: float-card 6s ease-in-out infinite;
+}
+
+/* Slow rotate for background glow decorations */
+@keyframes slow-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-slow-spin {
+    animation: slow-spin 25s linear infinite;
+}
