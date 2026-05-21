@@ -1,4 +1,4 @@
-# 💻 LapStore - Premium Tech Store & Analytics Dashboard
+
 
 <p align="center">
   <img src="favicon.png" alt="LapStore Logo" width="100" height="100">
