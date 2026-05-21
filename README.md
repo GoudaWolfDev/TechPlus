@@ -1,8 +1,6 @@
 
 
-<p align="center">
-  <img src="favicon.png" alt="LapStore Logo" width="100" height="100">
-</p>
+
 
 <p align="center">
   <strong>A high-fidelity modern tech store mockup and fully interactive dark-themed administration dashboard.</strong>
